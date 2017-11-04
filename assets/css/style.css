@@ -120,3 +120,13 @@ footer{
 form{font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
 }
+
+.portfolio li{
+	float: left;
+	display: inline-block;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
