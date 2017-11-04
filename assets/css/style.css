@@ -14,6 +14,7 @@
 #second{
 	color: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	border-bottom: 1px solid #777777;
 }
 
 .container{
@@ -21,7 +22,6 @@
 	width: 1000px;
 	height: 520px;
 	display: inline-block;
-	position: relative;
 }
 
 #profile{
@@ -32,17 +32,17 @@
 	width: 600px;
 	height: 450px;
 	background-color: white;
-	position: absolute;
-	left: 100px;
-	top: 50px;
-	padding-left: 10px;
+	margin: 30px 100px;
+	position: relative;
 	padding-right: 10px;
-}
+	padding-left: 10px;
+	border: 2px solid #4aaaa5;}
+ 
 
-.connect{
+.Connect{
 	position: absolute;
-	top: 50px;
-	right: 30px;
+	top: 135px;
+	right: 370px;
 	text-align: center;
 	color: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
@@ -53,6 +53,8 @@
 	height: 100px;
 	width: 200px;
 	font-size: 20px;
+	font-weight: bold;
+	border: 2px solid #4aaaa5;
 }
 
 .About{
@@ -87,4 +89,26 @@
 	clear: both;
 	display: table;
 	margin-bottom: 0px;
+}
+
+.connect1 li{
+	float: left;
+	display: inline-block;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	border-top: .5px solid #777777;
+	padding: 10px;
+	text-align: center;
+	color: #4aaaa5;
+}
+
+footer{
+	background-color: #666666;
+	height: 60px;
+	border-top: 10px solid #4aaaa5;
+	text-align: center;
+	color: white;
+	font-size: 10px;
+	padding-top: 50px;
 }
