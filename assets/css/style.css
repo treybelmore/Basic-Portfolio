@@ -112,3 +112,11 @@ footer{
 	font-size: 10px;
 	padding-top: 50px;
 }
+
+#comment{ width: 400px; height: 100px; }
+
+#box{ width: 400px; }
+
+form{font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
